@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #009975;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 22px;
+}
+.teket{
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+
+    /* width: 95%; */
+    /* overflow-wrap: break-word; */
+}
+.Stiky{
+    resize: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+}
+.Stiky:focus{
+outline: none;
+}
+.add{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 114px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+.add:hover{
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+
